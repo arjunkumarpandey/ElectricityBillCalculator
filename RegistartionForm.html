@@ -1,0 +1,49 @@
+<html>
+<head>
+<title>Registration Form</title>
+<link rel="stylesheet" type="text/css" href="styleR.css">
+<body>
+<div id="main-wrapper">
+<center><h1>Electricity Bill Calculator</h1>
+<h2>Registration Form </h2>
+<img src="1077114.png" height="40" class="user">
+<form action="valid-page.php" method="post" class="middle">
+<label for="">Your Name</label><br>
+<input type="text" placeholder="Name" name="username" required=""><br>
+<label for="">Email Address</label><br>
+<input type="email" placeholder="Email" required="" name="email"><br>
+<label for="">Password</label><br>
+<input type="password" placeholder="Password" name="password" required ><br>
+<label for="">Gender</label><br>
+<input type="radio" name="gender" value="m"> Male&nbsp;&nbsp;
+<input type="radio" name="gender" value="f" > Female
+
+<br>
+<table>
+<tr>
+<td>
+<label>Mobile Number</label><br>
+</td>
+</tr>
+<tr>
+<td>
+<select name="phoneCode" required>
+<option selected hidden value=""> Code</option>
+<option value="+91">+91</option>
+<option value="+92">+92</option>
+</select>
+</td>
+<td>
+    <input type="tel" placeholder="Phone Number" required="" name="phone"
+    maxlength="10"/ ><br>
+    </td>
+    </tr>
+    </table>
+    <input type="submit" value="Register" >
+    <input type="reset" value="Reset" >
+    </form>
+
+    </div>
+    </body>
+    </html>
+</center>

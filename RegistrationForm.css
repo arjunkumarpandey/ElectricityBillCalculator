@@ -1,0 +1,87 @@
+body {
+    background-image: url('lamp_spiral_electricity_120795_3840x2400.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 420px;
+    height: auto;
+    margin: 20px auto;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="tel"] {
+    border: none;
+    border-bottom: 1px solid gray;
+    padding: 8.5px;
+    width: 95%;
+    margin: 10px 0 20px 10px;
+    font-size: 15px;
+}
+
+input[type="submit"] {
+    border: none;
+    border-radius: 10px;
+    background-color: #03FB49;
+    padding: 10px;
+    width: 95%;
+    margin: 15px 0 10px 10px;
+    font-size: 18px;
+    transition: 0.5s;
+}
+
+input[type="reset"] {
+    border: none;
+    border-radius: 10px;
+    background-color: blue;
+    padding: 10px;
+    width: 95%;
+    margin: 15px 0 10px 10px;
+    font-size: 18px;
+    transition: 0.5s;
+}
+
+input[type="submit"]:hover {
+    background-color: #03A531;
+    color: #fff;
+}
+
+input[type="reset"]:hover {
+    background-color: blue;
+    color: #fff;
+}
+
+label {
+    margin-left: 10px;
+}
+
+input[type="radio"] {
+    margin: 10px 0 20px 10px;
+}
+
+select {
+    border: none;
+    border-bottom: 1px solid gray;
+    padding: 7px;
+    margin: 0 0 10px 10px;
+    font-size: 15px;
+}
+
+input[type="tel"] {
+    width: 95%;
+}
